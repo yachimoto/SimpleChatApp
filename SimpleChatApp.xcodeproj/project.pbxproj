@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0581630C554BAD0516CA6D4F /* Pods_SimpleChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A59139892D12FE8BCAC8A6B /* Pods_SimpleChatApp.framework */; };
+		CEE8B21E22FBD19500FB455A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B21D22FBD19500FB455A /* AppDelegate.swift */; };
+		CEE8B22022FBD19500FB455A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B21F22FBD19500FB455A /* ViewController.swift */; };
+		CEE8B22322FBD19500FB455A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8B22122FBD19500FB455A /* Main.storyboard */; };
+		CEE8B22522FBD19B00FB455A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE8B22422FBD19B00FB455A /* Assets.xcassets */; };
+		CEE8B22822FBD19B00FB455A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE8B22622FBD19B00FB455A /* LaunchScreen.storyboard */; };
+		CEE8B23022FD008900FB455A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE8B22F22FD008900FB455A /* GoogleService-Info.plist */; };
+		CEE8B23222FD032D00FB455A /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B23122FD032D00FB455A /* RoomViewController.swift */; };
+		CEE8B23622FD04E700FB455A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B23522FD04E700FB455A /* Room.swift */; };
+		CEE8B23822FD06A900FB455A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8B23722FD06A900FB455A /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A59139892D12FE8BCAC8A6B /* Pods_SimpleChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E248377F3C9D345D45D0044 /* Pods-SimpleChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleChatApp.debug.xcconfig"; path = "Target Support Files/Pods-SimpleChatApp/Pods-SimpleChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE8B21A22FBD19500FB455A /* SimpleChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE8B21D22FBD19500FB455A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEE8B21F22FBD19500FB455A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEE8B22222FBD19500FB455A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEE8B22422FBD19B00FB455A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE8B22722FBD19B00FB455A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEE8B22922FBD19B00FB455A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE8B22F22FD008900FB455A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEE8B23122FD032D00FB455A /* RoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		CEE8B23522FD04E700FB455A /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		CEE8B23722FD06A900FB455A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F483E9B9B2EE248E18DB8B2B /* Pods-SimpleChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleChatApp.release.xcconfig"; path = "Target Support Files/Pods-SimpleChatApp/Pods-SimpleChatApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE8B21722FBD19500FB455A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0581630C554BAD0516CA6D4F /* Pods_SimpleChatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E663EA3450E507A788BE517 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A59139892D12FE8BCAC8A6B /* Pods_SimpleChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEE8B21122FBD19500FB455A = {
+			isa = PBXGroup;
+			children = (
+				CEE8B21C22FBD19500FB455A /* SimpleChatApp */,
+				CEE8B21B22FBD19500FB455A /* Products */,
+				F7EB868A0BB0C6E4B6E35F3F /* Pods */,
+				4E663EA3450E507A788BE517 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE8B21B22FBD19500FB455A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8B21A22FBD19500FB455A /* SimpleChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE8B21C22FBD19500FB455A /* SimpleChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8B23422FD04B400FB455A /* Objects */,
+				CEE8B23322FD039100FB455A /* Controllers */,
+				CEE8B21D22FBD19500FB455A /* AppDelegate.swift */,
+				CEE8B22122FBD19500FB455A /* Main.storyboard */,
+				CEE8B22422FBD19B00FB455A /* Assets.xcassets */,
+				CEE8B22622FBD19B00FB455A /* LaunchScreen.storyboard */,
+				CEE8B22922FBD19B00FB455A /* Info.plist */,
+				CEE8B22F22FD008900FB455A /* GoogleService-Info.plist */,
+			);
+			path = SimpleChatApp;
+			sourceTree = "<group>";
+		};
+		CEE8B23322FD039100FB455A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8B21F22FBD19500FB455A /* ViewController.swift */,
+				CEE8B23122FD032D00FB455A /* RoomViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEE8B23422FD04B400FB455A /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8B23522FD04E700FB455A /* Room.swift */,
+				CEE8B23722FD06A900FB455A /* Message.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		F7EB868A0BB0C6E4B6E35F3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E248377F3C9D345D45D0044 /* Pods-SimpleChatApp.debug.xcconfig */,
+				F483E9B9B2EE248E18DB8B2B /* Pods-SimpleChatApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE8B21922FBD19500FB455A /* SimpleChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE8B22C22FBD19B00FB455A /* Build configuration list for PBXNativeTarget "SimpleChatApp" */;
+			buildPhases = (
+				943122E219C82D58E64E2296 /* [CP] Check Pods Manifest.lock */,
+				CEE8B21622FBD19500FB455A /* Sources */,
+				CEE8B21722FBD19500FB455A /* Frameworks */,
+				CEE8B21822FBD19500FB455A /* Resources */,
+				23E617CBC9C2B39475BE9D81 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleChatApp;
+			productName = SimpleChatApp;
+			productReference = CEE8B21A22FBD19500FB455A /* SimpleChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE8B21222FBD19500FB455A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "谷地元　星斗";
+				TargetAttributes = {
+					CEE8B21922FBD19500FB455A = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = CEE8B21522FBD19500FB455A /* Build configuration list for PBXProject "SimpleChatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE8B21122FBD19500FB455A;
+			productRefGroup = CEE8B21B22FBD19500FB455A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE8B21922FBD19500FB455A /* SimpleChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE8B21822FBD19500FB455A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8B23022FD008900FB455A /* GoogleService-Info.plist in Resources */,
+				CEE8B22822FBD19B00FB455A /* LaunchScreen.storyboard in Resources */,
+				CEE8B22522FBD19B00FB455A /* Assets.xcassets in Resources */,
+				CEE8B22322FBD19500FB455A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23E617CBC9C2B39475BE9D81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleChatApp/Pods-SimpleChatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleChatApp/Pods-SimpleChatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleChatApp/Pods-SimpleChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		943122E219C82D58E64E2296 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE8B21622FBD19500FB455A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8B23222FD032D00FB455A /* RoomViewController.swift in Sources */,
+				CEE8B22022FBD19500FB455A /* ViewController.swift in Sources */,
+				CEE8B23822FD06A900FB455A /* Message.swift in Sources */,
+				CEE8B23622FD04E700FB455A /* Room.swift in Sources */,
+				CEE8B21E22FBD19500FB455A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEE8B22122FBD19500FB455A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8B22222FBD19500FB455A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEE8B22622FBD19B00FB455A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEE8B22722FBD19B00FB455A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEE8B22A22FBD19B00FB455A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE8B22B22FBD19B00FB455A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE8B22D22FBD19B00FB455A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E248377F3C9D345D45D0044 /* Pods-SimpleChatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T8Z8P27DC;
+				INFOPLIST_FILE = SimpleChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SimpleChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE8B22E22FBD19B00FB455A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F483E9B9B2EE248E18DB8B2B /* Pods-SimpleChatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T8Z8P27DC;
+				INFOPLIST_FILE = SimpleChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.SimpleChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE8B21522FBD19500FB455A /* Build configuration list for PBXProject "SimpleChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8B22A22FBD19B00FB455A /* Debug */,
+				CEE8B22B22FBD19B00FB455A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE8B22C22FBD19B00FB455A /* Build configuration list for PBXNativeTarget "SimpleChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE8B22D22FBD19B00FB455A /* Debug */,
+				CEE8B22E22FBD19B00FB455A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE8B21222FBD19500FB455A /* Project object */;
+}
